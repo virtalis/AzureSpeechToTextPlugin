@@ -9,10 +9,14 @@ Visual Studio 2019 recommended.
 1. Clone this repository (or download the zip)
 2. Open the AzureSpeechToText solution
 3. Edit Exports.cs as follows:
- a. Replace the placeholder values for the Azure subscription keys
- `var config = SpeechConfig.FromSubscription("YOUR_SUBSCRIPTION_KEY", "YOUR_SUBSCRIPTION_REGION");`
- b. Replace the placeholder VisRen native SDK key with a valid license
- `return "YOUR_VISREN_NATIVE_API_KEY";`
+* Replace the placeholder values for the Azure subscription keys
+  ```cs
+  var config = SpeechConfig.FromSubscription("YOUR_SUBSCRIPTION_KEY", "YOUR_SUBSCRIPTION_REGION");
+  ```
+* Replace the placeholder VisRen native SDK key with a valid license
+  ```cs
+  return "YOUR_VISREN_NATIVE_API_KEY";
+  ```
 4. Build the project
 
 ## Install

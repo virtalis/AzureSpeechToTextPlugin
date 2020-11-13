@@ -1,6 +1,8 @@
 ﻿# Azure Speech to Text VisRen Plugin
 This is a plugin that exposes the Azure Speech to Text capability to the VisRen Lua environment so scripts in a scene can perform speech to text operations and receive the spoken text as a string.
 
+Blog posts related to this plugin can be found [here](https://developers.virtalis.com/blogs/intuitive-immersive-annotation-using-speech-recognition) and [here](https://developers.virtalis.com/blogs/thread-safety-in-visionary-render-plugins)
+
 ## Compile
 Visual Studio 2019 recommended.
 
